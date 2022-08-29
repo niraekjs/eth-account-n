@@ -48,18 +48,18 @@ with open("./README.md") as readme:
 
 
 setup(
-    name="eth-account",
+    name="eth-account-n",
     # *IMPORTANT*: Don't manually change the version here. Use `make bump`, as described in readme
-    version="0.7.0",
+    version="0.0.2",
     description="""eth-account: Sign Ethereum transactions and messages with local private keys""",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="The Ethereum Foundation",
     author_email="snakecharmers@ethereum.org",
-    url="https://github.com/ethereum/eth-account",
+    url="https://github.com/niraekjs/eth-account-n",
     include_package_data=True,
     package_data={
-        "eth_account": [
+        "eth_account-n": [
             "py.typed",
             "hdaccount/wordlist/*.txt",
         ]
